@@ -81,6 +81,8 @@ public class HelloWorld {
             System.out.println(i);
             table.add(String.valueOf(i));
         }
+		if("t".equalsIgnoreCase("t"))
+			System.out.println("test");
 		System.out.println("table size "+table.size());
 	}
 
